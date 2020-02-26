@@ -1,0 +1,6 @@
+Player 1 Button 1 - Pin 01 - Mapped 1
+Player 1 ProximitySensor - Pin 20 - Mapped a
+Player 2 Button 1 - Pin 02 - Mapped 2
+Player 2 ProximitySensor - Pin 19 - Mapped b
+Player 3 Button 1 - Pin 03 - Mapped g
+Player 3 Button 2 - Pin 04 - Mapped r
