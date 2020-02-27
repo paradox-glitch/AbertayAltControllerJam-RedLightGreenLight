@@ -35,7 +35,6 @@ public class MainMenuCamera : MonoBehaviour
 
         if (mouseX < 0 || mouseX > screenX || mouseY < 0 || mouseY > screenY)
         {
-            Debug.Log("The mouse has left the screen. Resetting mouse cursor to centre.");
             Cursor.lockState = CursorLockMode.Locked;
             yaw = 235.0f;
             pitch = 15.0f;
