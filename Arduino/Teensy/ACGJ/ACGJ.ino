@@ -1,3 +1,9 @@
+/* morgan finney and jack edgar
+ * abertay alt controller jam
+ * feb 2020
+ * for red light green light
+ */
+
 #include <Bounce.h>
 #include <SharpIR.h>
 
@@ -9,6 +15,8 @@ const int player1Pin = 1;
 const int player2Pin = 2;
 const int greenPin = 3;
 const int redPin = 4;
+
+const int ledPin = 13;
 
 int distance;
 int distance2;
@@ -26,10 +34,14 @@ void setup() {
   pinMode(player2Pin, INPUT_PULLUP);
   pinMode(greenPin, INPUT_PULLUP);
   pinMode(redPin, INPUT_PULLUP);
+
+  pinMode(ledPin, OUTPUT);
   
   pinMode(IRPin, INPUT);
   pinMode(IRPin2, INPUT);
   Serial.begin(9600);
+
+  digitalWrite(ledPin, HIGH);   // set the LED on
 }
 
 void loop() {
@@ -102,5 +114,5 @@ void loop() {
   else
     Keyboard.release(KEY_B);
 
-  delay(200);
+  delay(16);
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
