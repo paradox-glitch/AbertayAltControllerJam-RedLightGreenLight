@@ -130,10 +130,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   hidden: 0
+  dead: 0
   boxPrefab: {fileID: 4763748485199429790, guid: 544d157cdc3b9554caa8828722f6d3bf,
     type: 3}
   droppedBox: {fileID: 0}
   killBox: {fileID: 0}
+  Cage: {fileID: 0}
+  catcher: {fileID: 0}
 --- !u!1 &486320976918743165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8477913649748096906
 Transform:
   m_ObjectHideFlags: 0

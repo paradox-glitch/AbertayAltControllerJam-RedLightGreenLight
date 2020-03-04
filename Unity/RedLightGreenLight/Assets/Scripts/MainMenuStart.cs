@@ -16,8 +16,8 @@ public class MainMenuStart : MonoBehaviour {
 
 	private void Update()
 	{
-		if (overStart == true && Input.GetKeyDown(KeyCode.Mouse0))
-			Debug.Log("Load Game");
+        if (overStart == true && Input.GetKeyDown(KeyCode.Mouse0))
+            SceneManager.LoadScene(01);
 
 	}
 
